@@ -1,4 +1,4 @@
-'''Train jaja CIFAR10 with PyTorch.'''
+'''Train jaja sdfsdfsdfsdf with PyTorch.'''
 import torch
 import torch.nn as nn
 import torch.optim as optim
