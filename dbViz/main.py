@@ -65,7 +65,8 @@ if args.load_net is None:
     if args.plot_animation:
         image_ids = args.imgs
         sampleids = '_'.join(list(map(str,image_ids)))
-        os.makedirs(f'images/{args.net}/{args.train_mode}/{sampleids}/{str(args.set_seed)}', exist_ok=True)
+        #os.makedirs(f'images/{args.net}/{args.train_mode}/{sampleids}/{str(args.set_seed)}', exist_ok=True)
+        os.makedirs("image/"+ args.net + "/"+args.train_mode+"/"+ sampleids + "/"+ str(args.set_seed))
         args.plot_path = os.path.join('images', args.net, args.train_mode, sampleids,str(args.set_seed))
         if args.extra_path != None:
             os.makedirs(f'images/{args.net}/{args.train_mode}/{sampleids}/{args.extra_path}/{str(args.set_seed)}', exist_ok=True)
