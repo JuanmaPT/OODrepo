@@ -1,0 +1,39 @@
+==> Preparing data..
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to /home/juanma/data/cifar-10-python.tar.gz
+Extracting /home/juanma/data/cifar-10-python.tar.gz to /home/juanma/data
+Files already downloaded and verified
+scratch prediction  10.0
+Training the network or loading the network
+EPOCH:0, Test acc: 59.75
+The best epoch is: 0
+saved_models/naive/123456/saves.pth
+EPOCH:1, Test acc: 72.63
+The best epoch is: 1
+saved_models/naive/123456/saves.pth
+EPOCH:2, Test acc: 71.6
+EPOCH:3, Test acc: 83.72
+The best epoch is: 3
+saved_models/naive/123456/saves.pth
+EPOCH:4, Test acc: 84.42
+The best epoch is: 4
+saved_models/naive/123456/saves.pth
+EPOCH:5, Test acc: 84.72
+The best epoch is: 5
+saved_models/naive/123456/saves.pth
+EPOCH:6, Test acc: 85.16
+The best epoch is: 6
+saved_models/naive/123456/saves.pth
+EPOCH:7, Test acc: 85.07
+EPOCH:8, Test acc: 84.99
+EPOCH:9, Test acc: 85.17
+The best epoch is: 9
+saved_models/naive/123456/saves.pth
+Time taken to train/load the model: 00:55:21.09
+[5, 6, 5]
+100.0%
+Traceback (most recent call last):
+  File "main.py", line 301, in <module>
+    plot_path = os.path.join(args.plot_path,f'{net_name}_{sampleids}_{args.set_seed}cifar10')
+  File "/home/juanma/anaconda3/envs/dbviz_env/lib/python3.8/posixpath.py", line 76, in join
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType

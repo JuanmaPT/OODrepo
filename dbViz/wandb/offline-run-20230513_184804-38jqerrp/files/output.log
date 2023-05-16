@@ -1,0 +1,12 @@
+
+==> Preparing data..
+Traceback (most recent call last):
+  File "main.py", line 38, in <module>
+    trainloader, testloader = get_data(args)
+  File "/home/juanma/TRDP/OODrepo/dbViz/data.py", line 128, in get_data
+    clean_trainset, clean_trainloader, testset, testloader = _baseset_picker(args)
+  File "/home/juanma/TRDP/OODrepo/dbViz/data.py", line 42, in _baseset_picker
+    clean_trainset = torchvision.datasets.ImageNet(
+  File "/home/juanma/anaconda3/envs/dbviz_env/lib/python3.8/site-packages/torchvision/datasets/imagenet.py", line 46, in __init__
+    raise RuntimeError(msg)
+RuntimeError: The dataset is no longer publicly accessible. You need to download the archives externally and place them in the root directory.

@@ -1,0 +1,20 @@
+2023-05-13 15:02:45,411 INFO    MainThread:83659 [internal.py:wandb_internal():88] W&B internal server running at pid: 83659, started at: 2023-05-13 15:02:45.411690
+2023-05-13 15:02:45,414 DEBUG   HandlerThread:83659 [handler.py:handle_request():124] handle_request: run_start
+2023-05-13 15:02:45,414 INFO    WriterThread:83659 [datastore.py:open_for_write():77] open: /home/juanma/TRDP/OODrepo/dbViz/wandb/offline-run-20230513_150244-2x6iaj60/run-2x6iaj60.wandb
+2023-05-13 15:02:45,420 DEBUG   HandlerThread:83659 [meta.py:__init__():39] meta init
+2023-05-13 15:02:45,421 DEBUG   HandlerThread:83659 [meta.py:__init__():53] meta init done
+2023-05-13 15:02:45,421 DEBUG   HandlerThread:83659 [meta.py:probe():210] probe
+2023-05-13 15:02:45,427 DEBUG   HandlerThread:83659 [meta.py:_setup_git():200] setup git
+2023-05-13 15:02:45,439 DEBUG   HandlerThread:83659 [meta.py:_setup_git():207] setup git done
+2023-05-13 15:02:45,440 DEBUG   HandlerThread:83659 [meta.py:_save_pip():57] save pip
+2023-05-13 15:02:45,440 DEBUG   HandlerThread:83659 [meta.py:_save_pip():71] save pip done
+2023-05-13 15:02:45,440 DEBUG   HandlerThread:83659 [meta.py:_save_conda():78] save conda
+2023-05-13 15:02:48,003 DEBUG   HandlerThread:83659 [meta.py:_save_conda():86] save conda done
+2023-05-13 15:02:48,003 DEBUG   HandlerThread:83659 [meta.py:probe():252] probe done
+2023-05-13 15:03:19,885 WARNING MainThread:83659 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2023-05-13 15:03:21,106 WARNING MainThread:83659 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2023-05-13 15:03:21,107 ERROR   MainThread:83659 [internal.py:wandb_internal():150] Internal process interrupted.
+2023-05-13 15:03:21,420 INFO    SenderThread:83659 [sender.py:finish():933] shutting down sender
+2023-05-13 15:03:21,631 INFO    WriterThread:83659 [datastore.py:close():258] close: /home/juanma/TRDP/OODrepo/dbViz/wandb/offline-run-20230513_150244-2x6iaj60/run-2x6iaj60.wandb
+2023-05-13 15:03:21,639 INFO    HandlerThread:83659 [handler.py:finish():638] shutting down handler
+2023-05-13 15:03:21,640 INFO    MainThread:83659 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,20 @@
+2023-05-10 21:32:00,301 INFO    MainThread:185228 [internal.py:wandb_internal():88] W&B internal server running at pid: 185228, started at: 2023-05-10 21:32:00.301269
+2023-05-10 21:32:00,303 DEBUG   HandlerThread:185228 [handler.py:handle_request():124] handle_request: run_start
+2023-05-10 21:32:00,303 INFO    WriterThread:185228 [datastore.py:open_for_write():77] open: /home/juanma/TRDP/OODrepo/dbViz/wandb/offline-run-20230510_213159-27sja3g9/run-27sja3g9.wandb
+2023-05-10 21:32:00,310 DEBUG   HandlerThread:185228 [meta.py:__init__():39] meta init
+2023-05-10 21:32:00,310 DEBUG   HandlerThread:185228 [meta.py:__init__():53] meta init done
+2023-05-10 21:32:00,310 DEBUG   HandlerThread:185228 [meta.py:probe():210] probe
+2023-05-10 21:32:00,316 DEBUG   HandlerThread:185228 [meta.py:_setup_git():200] setup git
+2023-05-10 21:32:00,329 DEBUG   HandlerThread:185228 [meta.py:_setup_git():207] setup git done
+2023-05-10 21:32:00,329 DEBUG   HandlerThread:185228 [meta.py:_save_pip():57] save pip
+2023-05-10 21:32:00,330 DEBUG   HandlerThread:185228 [meta.py:_save_pip():71] save pip done
+2023-05-10 21:32:00,330 DEBUG   HandlerThread:185228 [meta.py:_save_conda():78] save conda
+2023-05-10 21:32:02,939 DEBUG   HandlerThread:185228 [meta.py:_save_conda():86] save conda done
+2023-05-10 21:32:02,940 DEBUG   HandlerThread:185228 [meta.py:probe():252] probe done
+2023-05-10 21:47:45,429 WARNING MainThread:185228 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2023-05-10 21:47:47,205 WARNING MainThread:185228 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2023-05-10 21:47:47,206 ERROR   MainThread:185228 [internal.py:wandb_internal():150] Internal process interrupted.
+2023-05-10 21:47:47,675 INFO    SenderThread:185228 [sender.py:finish():933] shutting down sender
+2023-05-10 21:47:48,115 INFO    WriterThread:185228 [datastore.py:close():258] close: /home/juanma/TRDP/OODrepo/dbViz/wandb/offline-run-20230510_213159-27sja3g9/run-27sja3g9.wandb
+2023-05-10 21:47:48,165 INFO    HandlerThread:185228 [handler.py:finish():638] shutting down handler
+2023-05-10 21:47:48,166 INFO    MainThread:185228 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,30 @@
+2023-05-10 22:51:28,034 INFO    MainThread:227370 [wandb_setup.py:_flush():69] setting env: {}
+2023-05-10 22:51:28,034 INFO    MainThread:227370 [wandb_setup.py:_flush():69] setting login settings: {}
+2023-05-10 22:51:28,034 INFO    MainThread:227370 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2023-05-10 22:51:28,034 INFO    MainThread:227370 [wandb_init.py:_log_setup():336] Logging user logs to /home/juanma/TRDP/OODrepo/dbViz/wandb/offline-run-20230510_225128-2d9xw3h7/logs/debug.log
+2023-05-10 22:51:28,034 INFO    MainThread:227370 [wandb_init.py:_log_setup():337] Logging internal logs to /home/juanma/TRDP/OODrepo/dbViz/wandb/offline-run-20230510_225128-2d9xw3h7/logs/debug-internal.log
+2023-05-10 22:51:28,034 INFO    MainThread:227370 [wandb_init.py:init():369] calling init triggers
+2023-05-10 22:51:28,034 INFO    MainThread:227370 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {}
+2023-05-10 22:51:28,034 INFO    MainThread:227370 [wandb_init.py:init():418] starting backend
+2023-05-10 22:51:28,034 INFO    MainThread:227370 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-10 22:51:28,046 INFO    MainThread:227370 [backend.py:ensure_launched():132] starting backend process...
+2023-05-10 22:51:28,054 INFO    MainThread:227370 [backend.py:ensure_launched():136] started backend process with pid: 227454
+2023-05-10 22:51:28,055 INFO    MainThread:227370 [wandb_init.py:init():423] backend started and connected
+2023-05-10 22:51:28,056 INFO    MainThread:227370 [wandb_init.py:init():465] updated telemetry
+2023-05-10 22:51:28,057 INFO    MainThread:227370 [wandb_init.py:init():522] starting run threads in backend
+2023-05-10 22:51:31,191 INFO    MainThread:227370 [wandb_run.py:_console_start():1538] atexit reg
+2023-05-10 22:51:31,192 INFO    MainThread:227370 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.REDIRECT
+2023-05-10 22:51:31,192 INFO    MainThread:227370 [wandb_run.py:_redirect():1417] Redirecting console.
+2023-05-10 22:51:31,193 INFO    MainThread:227370 [wandb_run.py:_redirect():1473] Redirects installed.
+2023-05-10 22:51:31,193 INFO    MainThread:227370 [wandb_init.py:init():547] run started, returning control to user process
+2023-05-10 22:51:31,194 INFO    MainThread:227370 [wandb_run.py:_config_callback():787] config_cb None None {'lr': 0.01, 'epochs': 2, 'scheduler': 'linear', 'net': 'resnet', 'baseset': 'CIFAR10', 'load_net': None, 'load_data': None, 'save_net': 'saves', 'train_mode': 'naive', 'opt': 'SGD', 'sam_radius': None, 'dryrun': False, 'bs': 128, 'cutmix_beta': 1.0, 'cutmix_prob': 0.5, 'teacher_loc': '', 'teacher_net': 'ResNet', 'criterion': '', 'adv': False, 'targeted': False, 'noise_type': None, 'widen_factor': 10, 'distill_temp': 30.0, 'only_teacher': False, 'resolution': 500.0, 'range_l': 0.1, 'range_r': 0.1, 'temp': 5.0, 'plot_method': 'greys', 'plot_train_imgs': False, 'plot_animation': False, 'plot_path': None, 'extra_path': None, 'imgs': [500, 5000, 1600], 'active_log': True, 'set_seed': 12364, 'set_data_seed': 1, 'student_lists': ['ResNet'], 'teacher_lists': ['ResNet'], 'model_path': None, 'model_path_2': None, 'save_epoch': None}
+2023-05-10 23:13:51,284 INFO    MainThread:227370 [wandb_run.py:_atexit_cleanup():1508] got exitcode: 1
+2023-05-10 23:13:51,284 INFO    MainThread:227370 [wandb_run.py:_restore():1480] restore
+2023-05-10 23:13:54,079 INFO    MainThread:227370 [wandb_run.py:_wait_for_finish():1630] got exit ret: 
+2023-05-10 23:13:54,182 INFO    MainThread:227370 [wandb_run.py:_wait_for_finish():1630] got exit ret: done: true
+exit_result {
+}
+
+2023-05-10 23:13:55,321 INFO    MainThread:227370 [wandb_run.py:_show_summary():1785] rendering summary
+2023-05-10 23:13:55,321 INFO    MainThread:227370 [wandb_run.py:_show_history():1823] rendering history
