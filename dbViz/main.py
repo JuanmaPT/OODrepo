@@ -25,6 +25,8 @@ from utils import simple_lapsed_time
 args = options().parse_args()
 print(args)
 
+#Fixing the arguments
+
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 save_path = args.save_net
 if args.active_log:
@@ -61,6 +63,9 @@ print("Training the network or loading the network")
 start = time.time()
 best_acc = 0  # best test accuracy
 best_epoch = 0
+#########################################################
+#   TRAINING
+#########################################################
 if args.load_net is None:
     if args.plot_animation:
         image_ids = args.imgs
@@ -149,7 +154,9 @@ if args.load_net is None:
         if args.train_mode == 'adv' and epoch % 5 == 0:
             adv_acc, predicted = test_on_adv(args, net, testloader, device)
             print(f'EPOCH:{epoch}, Adv acc: {adv_acc}')
-
+#########################################################
+#   LOADING THE NETWORK
+#########################################################
 else:
     net.load_state_dict(torch.load(args.load_net))
     
@@ -301,6 +308,7 @@ if not args.plot_animation:
     # print(args.plot_path)
     print(net_name)
     print(sampleids)
+
     print(args.set_seed)
     print(f'{net_name}_{sampleids}_{args.set_seed}cifar10')
     #lot_path = os.path.join(args.plot_path,f'{net_name}_{sampleids}_{args.set_seed}cifar10')

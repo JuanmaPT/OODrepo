@@ -1,0 +1,42 @@
+{
+    "os": "Linux-5.19.0-32-generic-x86_64-with-glibc2.10",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-05-16T21:27:35.619438",
+    "startedAt": "2023-05-16T21:27:35.043728",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 950M",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--load_net",
+        "/home/juanma/TRDP/OODrepo/dbViz/pretrained_models/resnet18-5c106cde.pth",
+        "--net",
+        "resnet",
+        "--set_seed",
+        "666",
+        "--save_net",
+        "saves",
+        "--imgs",
+        "500,5000,1600",
+        "--resolution",
+        "500",
+        "--active_log",
+        "--epochs",
+        "2",
+        "--lr",
+        "0.01"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "dbViz/main.py",
+    "git": {
+        "remote": "https://github.com/JuanmaPT/OODrepo.git",
+        "commit": "ca8343ff225458eab39e8a15ad80ab9e32d8ca0b"
+    },
+    "email": "juanmaptcg@gmail.com",
+    "root": "/home/juanma/TRDP/OODrepo",
+    "host": "juanma",
+    "username": "juanma",
+    "executable": "/home/juanma/anaconda3/envs/dbviz_env/bin/python"
+}

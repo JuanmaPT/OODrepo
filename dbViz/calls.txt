@@ -5,4 +5,4 @@ python main.py --net <model_name> --set_seed <init_seed> --save_net <model_save_
 
 python main.py --net resnet --set_seed 997 --save_net saves --imgs 500,5000,1600 --resolution 500 --active_log --epochs 2 --lr 0.01
 
-python main.py --load_net /home/juanma/TRDP/OODrepo/dbViz/pretrained_models/resnet18-5c106cde.pth--net resnet --set_seed 666 --save_net saves --imgs 500,5000,1600 --resolution 500 --active_log --epochs 2 --lr 0.01
+python main.py --load_net /home/juanma/TRDP/OODrepo/dbViz/pretrained_models/resnet18-f37072fd.pth --net resnet --set_seed 666 --save_net saves --imgs 500,5000,1600 --resolution 500 --active_log --epochs 2 --lr 0.01
